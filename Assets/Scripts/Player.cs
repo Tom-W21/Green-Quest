@@ -23,11 +23,14 @@ public class Player : MonoBehaviour
     private bool recovery;
 
     private static Player instance;
+
+    public float invunerabilityTime = 0;
+    public float invunerabilityDuration = 2;
     private void Awake()
     {
-        DontDestroyOnLoad(this); //mantém um objeto entre cenas.
+        DontDestroyOnLoad(this); //mantï¿½m um objeto entre cenas.
 
-        if (instance == null) //checando se o instace é null.
+        if (instance == null) //checando se o instace ï¿½ null.
         {
             instance = this;
         }
@@ -52,7 +55,8 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Move();        
+        Move();     
+        if(invunerabilityTime > 0) invunerabilityTime -= Time.deltaTime;
     }
 
     void Move()
@@ -140,24 +144,24 @@ public class Player : MonoBehaviour
         isAttacking = false;
     }
 
-    float recoveryCount;
+
     public void OnHit()
-
     {
-        recoveryCount += Time.deltaTime;
+        if(invunerabilityTime > 0)
+            return;
 
-        if (recoveryCount >= 2f)
+        invunerabilityTime = invunerabilityDuration;
+        health--;
+
+
+        if(health > 0)
         {
             anim.SetTrigger("hit");
-
-            recoveryCount = 0f;   
-            
-        }     
+        }
                      
 
-        if (health <= 0 && !recovery)
+        if (health <= 0)
         {
-            recovery = true;
             anim.SetTrigger("dead");
             //Gamer Over aqui
         }

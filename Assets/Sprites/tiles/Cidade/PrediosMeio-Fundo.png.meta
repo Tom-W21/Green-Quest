@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PrediosMeio-Fundo_0: 3778694247556498807
+      PrediosMeio-Fundo_1: 548229388422038995
+      PrediosMeio-Fundo_2: -1209339584691515834
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

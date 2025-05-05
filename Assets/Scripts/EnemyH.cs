@@ -93,9 +93,9 @@ public class EnemyH : MonoBehaviour
                     isFront = false;
                     rig.linearVelocity = Vector2.zero;
 
-                    anim.SetInteger("transition", 2); // precisa fazer a animacao
-
                     hit.transform.GetComponent<Player>().OnHit();
+
+                    anim.SetInteger("transition", 2); // precisa fazer a animacao
                 }
             }
         }

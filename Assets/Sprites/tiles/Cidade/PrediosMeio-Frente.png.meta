@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PrediosMeio-Frente_0: -1249368167609791849
+      PrediosMeio-Frente_1: -9011916208672015809
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

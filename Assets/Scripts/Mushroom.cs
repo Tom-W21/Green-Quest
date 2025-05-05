@@ -72,6 +72,12 @@ public class Mushroom : MonoBehaviour
         Gizmos.DrawWireSphere(point.position, radius);
     }
 
-
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.transform.CompareTag("Player"))
+        {
+            collision.transform.GetComponent<Player>().OnHit();
+        }
+    }
 
 }
