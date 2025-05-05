@@ -3090,7 +3090,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: b3f565c6a74da794dba8fe4331bd35d5, type: 3}
   m_Resource: {fileID: 8300000, guid: b3f565c6a74da794dba8fe4331bd35d5, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.7
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3529,63 +3529,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1001 &915121912
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3669380179988391852, guid: e0cdf14f8bcc0de42922c17dac811b0f, type: 3}
-      propertyPath: m_Name
-      value: Enemy_Mushroom
-      objectReference: {fileID: 0}
-    - target: {fileID: 8100479573165556230, guid: e0cdf14f8bcc0de42922c17dac811b0f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.2775123
-      objectReference: {fileID: 0}
-    - target: {fileID: 8100479573165556230, guid: e0cdf14f8bcc0de42922c17dac811b0f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.1273034
-      objectReference: {fileID: 0}
-    - target: {fileID: 8100479573165556230, guid: e0cdf14f8bcc0de42922c17dac811b0f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8100479573165556230, guid: e0cdf14f8bcc0de42922c17dac811b0f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8100479573165556230, guid: e0cdf14f8bcc0de42922c17dac811b0f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8100479573165556230, guid: e0cdf14f8bcc0de42922c17dac811b0f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8100479573165556230, guid: e0cdf14f8bcc0de42922c17dac811b0f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8100479573165556230, guid: e0cdf14f8bcc0de42922c17dac811b0f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8100479573165556230, guid: e0cdf14f8bcc0de42922c17dac811b0f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8100479573165556230, guid: e0cdf14f8bcc0de42922c17dac811b0f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e0cdf14f8bcc0de42922c17dac811b0f, type: 3}
 --- !u!1 &958441013
 GameObject:
   m_ObjectHideFlags: 0
@@ -3914,6 +3857,7 @@ GameObject:
   - component: {fileID: 1412580947}
   - component: {fileID: 1412580949}
   - component: {fileID: 1412580950}
+  - component: {fileID: 1412580951}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -4038,7 +3982,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.7
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4122,6 +4066,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1412580951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412580945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a962e69ae7ba86048991d3a3ce356d06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSound: {fileID: 8300000, guid: 82773babc49c31c4c9e605f1a0a254e2, type: 3}
+  jumpSoud: {fileID: 8300000, guid: 4e46611a4435d364393a07cb66e9c23a, type: 3}
+  hitSound: {fileID: 8300000, guid: 00082ae6d042ac446af2415ac4de372e, type: 3}
 --- !u!1 &1674026450
 GameObject:
   m_ObjectHideFlags: 0
@@ -4653,4 +4612,3 @@ SceneRoots:
   - {fileID: 1158748702}
   - {fileID: 1957147602}
   - {fileID: 377993699}
-  - {fileID: 915121912}

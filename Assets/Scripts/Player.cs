@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     private Rigidbody2D rig;
+    private PlayerAudio playerAudio;
     public Animator anim;
     public Transform point;
 
@@ -43,7 +44,8 @@ public class Player : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        rig = GetComponent<Rigidbody2D>();        
+        rig = GetComponent<Rigidbody2D>(); 
+        playerAudio = GetComponent<PlayerAudio>();
     }
 
     // Update is called once per frame
@@ -99,12 +101,14 @@ public class Player : MonoBehaviour
                 rig.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
                 isJumping = true;
                 doubleJump = true;
+                playerAudio.PlaySFX(playerAudio.jumpSoud);
             }
             else if (doubleJump)
             {
                 anim.SetInteger("transition", 2);
                 rig.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
                 doubleJump = false;
+                playerAudio.PlaySFX(playerAudio.jumpSoud);
             }
         }
             
@@ -118,7 +122,7 @@ public class Player : MonoBehaviour
             anim.SetInteger("transition", 3);
 
             Collider2D hit = Physics2D.OverlapCircle(point.position, radius, enemyLayer);
-
+            playerAudio.PlaySFX(playerAudio.hitSound);
             if (hit != null)
             {            
 
@@ -189,24 +193,28 @@ public class Player : MonoBehaviour
 
         if (collision.CompareTag("Plastic"))
         {
+            playerAudio.PlaySFX(playerAudio.itemSound);
             GameControler.instance.GetPlastic();
             Destroy(collision.gameObject, 0.05f);
         }
 
         if (collision.CompareTag("Glass"))
         {
+            playerAudio.PlaySFX(playerAudio.itemSound);
             GameControler.instance.GetGlass();
             Destroy(collision.gameObject, 0.05f);
         }
 
         if (collision.CompareTag("Paper"))
         {
+            playerAudio.PlaySFX(playerAudio.itemSound);
             GameControler.instance.GetPaper();
             Destroy(collision.gameObject, 0.05f);
         }
 
         if (collision.CompareTag("Can"))
         {
+            playerAudio.PlaySFX(playerAudio.itemSound);
             GameControler.instance.GetCan();
             Destroy(collision.gameObject, 0.05f);
         }
