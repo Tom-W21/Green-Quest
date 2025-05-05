@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: f96cc8e4475ab544ab4fe0858983366d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4488669296200670515
+    second: "anima\xE7oes-Sheet3_0"
+  - first:
+      213: 3476131084617919314
+    second: "anima\xE7oes-Sheet3_1"
+  - first:
+      213: 4336822006609115552
+    second: "anima\xE7oes-Sheet3_2"
+  - first:
+      213: 116616823427219486
+    second: "anima\xE7oes-Sheet3_3"
+  - first:
+      213: 4473568481784782696
+    second: "anima\xE7oes-Sheet3_4"
+  - first:
+      213: -1113155837657973759
+    second: "anima\xE7oes-Sheet3_5"
+  - first:
+      213: 1716305220434848442
+    second: "anima\xE7oes-Sheet3_6"
+  - first:
+      213: -5856409774253491756
+    second: "anima\xE7oes-Sheet3_7"
+  - first:
+      213: -2055587740011216180
+    second: "anima\xE7oes-Sheet3_8"
+  - first:
+      213: -7509650104120092378
+    second: "anima\xE7oes-Sheet3_9"
+  - first:
+      213: -8559123883760154161
+    second: "anima\xE7oes-Sheet3_10"
+  - first:
+      213: 6099800541237900886
+    second: "anima\xE7oes-Sheet3_11"
+  - first:
+      213: 6664208432266274826
+    second: "anima\xE7oes-Sheet3_12"
+  - first:
+      213: 1126264650877173622
+    second: "anima\xE7oes-Sheet3_13"
+  - first:
+      213: 2419296303276971856
+    second: "anima\xE7oes-Sheet3_14"
+  - first:
+      213: 4997012654990177687
+    second: "anima\xE7oes-Sheet3_15"
+  - first:
+      213: 5120878381267382962
+    second: "anima\xE7oes-Sheet3_16"
+  - first:
+      213: 2274242189401654239
+    second: "anima\xE7oes-Sheet3_17"
+  - first:
+      213: 598933614825637204
+    second: "anima\xE7oes-Sheet3_18"
+  - first:
+      213: -1368969063617931023
+    second: "anima\xE7oes-Sheet3_19"
+  - first:
+      213: -8444876023890310589
+    second: "anima\xE7oes-Sheet3_20"
+  - first:
+      213: -5427070840308071631
+    second: "anima\xE7oes-Sheet3_21"
+  - first:
+      213: 9152036341013869868
+    second: "anima\xE7oes-Sheet3_22"
+  - first:
+      213: 602480048220744862
+    second: "anima\xE7oes-Sheet3_23"
+  - first:
+      213: 6258748466817244061
+    second: "anima\xE7oes-Sheet3_24"
+  - first:
+      213: -1821641677459950218
+    second: "anima\xE7oes-Sheet3_25"
+  - first:
+      213: -2237242441029673230
+    second: "anima\xE7oes-Sheet3_26"
+  - first:
+      213: -402172208270151900
+    second: "anima\xE7oes-Sheet3_27"
+  - first:
+      213: -2999600725323394404
+    second: "anima\xE7oes-Sheet3_28"
+  - first:
+      213: -5327646730713865249
+    second: "anima\xE7oes-Sheet3_29"
+  - first:
+      213: -936870330692301361
+    second: "anima\xE7oes-Sheet3_30"
+  - first:
+      213: -8354248188410072130
+    second: "anima\xE7oes-Sheet3_31"
+  - first:
+      213: 1726066892093836999
+    second: "anima\xE7oes-Sheet3_32"
+  - first:
+      213: -1730574898963441918
+    second: "anima\xE7oes-Sheet3_33"
+  - first:
+      213: -5182896023081260502
+    second: "anima\xE7oes-Sheet3_34"
+  - first:
+      213: -2965239689290225453
+    second: "anima\xE7oes-Sheet3_35"
+  - first:
+      213: 1859909345983371938
+    second: "anima\xE7oes-Sheet3_36"
+  - first:
+      213: -1191703815383687928
+    second: "anima\xE7oes-Sheet3_37"
+  - first:
+      213: 8148258668799880774
+    second: "anima\xE7oes-Sheet3_38"
+  - first:
+      213: 2195623759317455191
+    second: "anima\xE7oes-Sheet3_39"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_0"
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 168
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2a1cd9e0b05b1c0800000000000000
+      internalID: -4488669296200670515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_1"
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 168
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b285bddc2bd3030800000000000000
+      internalID: 3476131084617919314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_2"
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 168
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9780633ac7f2c30800000000000000
+      internalID: 4336822006609115552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_3"
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 168
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10c63f026e4e9100800000000000000
+      internalID: 116616823427219486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_4"
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 168
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f5a2b05de451e30800000000000000
+      internalID: 4473568481784782696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_5"
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 168
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c7eb4d9a64d80f0800000000000000
+      internalID: -1113155837657973759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_6"
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 168
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abaea2e218a81d710800000000000000
+      internalID: 1716305220434848442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_7"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 136
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9be72c65ad9bea0800000000000000
+      internalID: -5856409774253491756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_8"
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 136
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2cbf767d51973e0800000000000000
+      internalID: -2055587740011216180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_9"
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 136
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6295274a40d58c790800000000000000
+      internalID: -7509650104120092378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_10"
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 136
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc90ae70d22e73980800000000000000
+      internalID: -8559123883760154161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_11"
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 136
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656783d2648d6a450800000000000000
+      internalID: 6099800541237900886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_12"
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 136
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08e46ab2460c7c50800000000000000
+      internalID: 6664208432266274826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_13"
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 104
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ffc969bbb41af00800000000000000
+      internalID: 1126264650877173622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_14"
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 104
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0575d3b7b21139120800000000000000
+      internalID: 2419296303276971856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_15"
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 104
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79532dec884f85540800000000000000
+      internalID: 4997012654990177687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_16"
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 104
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b27b6591c3011740800000000000000
+      internalID: 5120878381267382962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_17"
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 104
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd30e78c83bbf8f10800000000000000
+      internalID: 2274242189401654239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_18"
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 104
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45509bb03f6df4800800000000000000
+      internalID: 598933614825637204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_19"
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 104
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8dd86c3e1700de0800000000000000
+      internalID: -1368969063617931023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_20"
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 104
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a0ec7cff5cdca80800000000000000
+      internalID: -8444876023890310589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_21"
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 104
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1338e8813db2fa4b0800000000000000
+      internalID: -5427070840308071631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_22"
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 65
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25f8950090920f70800000000000000
+      internalID: 9152036341013869868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_23"
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 65
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c257a69607c5800800000000000000
+      internalID: 602480048220744862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_24"
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 65
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b992ff19a8bd650800000000000000
+      internalID: 6258748466817244061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_25"
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 65
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675f3fabb8a38b6e0800000000000000
+      internalID: -1821641677459950218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_26"
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 65
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe9ff17ad7b3f0e0800000000000000
+      internalID: -2237242441029673230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_27"
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 65
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fe583e1823b6af0800000000000000
+      internalID: -402172208270151900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_28"
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 33
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92581b68074f56d0800000000000000
+      internalID: -2999600725323394404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_29"
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 32
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3670786856016b0800000000000000
+      internalID: -5327646730713865249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_30"
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 32
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcd8b72e5619ff2f0800000000000000
+      internalID: -936870330692301361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_31"
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 33
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb3fd5c098fbf0c80800000000000000
+      internalID: -8354248188410072130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_32"
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 32
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cec0d971b834f710800000000000000
+      internalID: 1726066892093836999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_33"
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 33
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20793126c43cbf7e0800000000000000
+      internalID: -1730574898963441918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_34"
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ae474f687a218b0800000000000000
+      internalID: -5182896023081260502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_35"
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 0
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d867fd863a59d6d0800000000000000
+      internalID: -2965239689290225453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_36"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa94c922b9bfc910800000000000000
+      internalID: 1859909345983371938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_37"
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 0
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80dd39e91b7367fe0800000000000000
+      internalID: -1191703815383687928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_38"
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e60d3861e641170800000000000000
+      internalID: 8148258668799880774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7oes-Sheet3_39"
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 0
+        width: 88
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751568a1d2c687e10800000000000000
+      internalID: 2195623759317455191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0c6c1ace1472ade43bd44fca3a518dbf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "anima\xE7oes-Sheet3_0": -4488669296200670515
+      "anima\xE7oes-Sheet3_1": 3476131084617919314
+      "anima\xE7oes-Sheet3_10": -8559123883760154161
+      "anima\xE7oes-Sheet3_11": 6099800541237900886
+      "anima\xE7oes-Sheet3_12": 6664208432266274826
+      "anima\xE7oes-Sheet3_13": 1126264650877173622
+      "anima\xE7oes-Sheet3_14": 2419296303276971856
+      "anima\xE7oes-Sheet3_15": 4997012654990177687
+      "anima\xE7oes-Sheet3_16": 5120878381267382962
+      "anima\xE7oes-Sheet3_17": 2274242189401654239
+      "anima\xE7oes-Sheet3_18": 598933614825637204
+      "anima\xE7oes-Sheet3_19": -1368969063617931023
+      "anima\xE7oes-Sheet3_2": 4336822006609115552
+      "anima\xE7oes-Sheet3_20": -8444876023890310589
+      "anima\xE7oes-Sheet3_21": -5427070840308071631
+      "anima\xE7oes-Sheet3_22": 9152036341013869868
+      "anima\xE7oes-Sheet3_23": 602480048220744862
+      "anima\xE7oes-Sheet3_24": 6258748466817244061
+      "anima\xE7oes-Sheet3_25": -1821641677459950218
+      "anima\xE7oes-Sheet3_26": -2237242441029673230
+      "anima\xE7oes-Sheet3_27": -402172208270151900
+      "anima\xE7oes-Sheet3_28": -2999600725323394404
+      "anima\xE7oes-Sheet3_29": -5327646730713865249
+      "anima\xE7oes-Sheet3_3": 116616823427219486
+      "anima\xE7oes-Sheet3_30": -936870330692301361
+      "anima\xE7oes-Sheet3_31": -8354248188410072130
+      "anima\xE7oes-Sheet3_32": 1726066892093836999
+      "anima\xE7oes-Sheet3_33": -1730574898963441918
+      "anima\xE7oes-Sheet3_34": -5182896023081260502
+      "anima\xE7oes-Sheet3_35": -2965239689290225453
+      "anima\xE7oes-Sheet3_36": 1859909345983371938
+      "anima\xE7oes-Sheet3_37": -1191703815383687928
+      "anima\xE7oes-Sheet3_38": 8148258668799880774
+      "anima\xE7oes-Sheet3_39": 2195623759317455191
+      "anima\xE7oes-Sheet3_4": 4473568481784782696
+      "anima\xE7oes-Sheet3_5": -1113155837657973759
+      "anima\xE7oes-Sheet3_6": 1716305220434848442
+      "anima\xE7oes-Sheet3_7": -5856409774253491756
+      "anima\xE7oes-Sheet3_8": -2055587740011216180
+      "anima\xE7oes-Sheet3_9": -7509650104120092378
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

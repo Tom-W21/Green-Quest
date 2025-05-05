@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: c6440f4e16bec4c46a3175592ed37035
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5930983775721448992
+    second: lixoReciclavelSpriteSheet_0
+  - first:
+      213: 5052868969920497493
+    second: lixoReciclavelSpriteSheet_1
+  - first:
+      213: -2091995264872886565
+    second: lixoReciclavelSpriteSheet_2
+  - first:
+      213: -6113161082256612248
+    second: lixoReciclavelSpriteSheet_3
+  - first:
+      213: 2362787513428623090
+    second: lixoReciclavelSpriteSheet_4
+  - first:
+      213: 8706749545818999774
+    second: lixoReciclavelSpriteSheet_5
+  - first:
+      213: -3278831573100466113
+    second: lixoReciclavelSpriteSheet_6
+  - first:
+      213: 5346792554890248774
+    second: lixoReciclavelSpriteSheet_7
+  - first:
+      213: -4365521250781335965
+    second: lixoReciclavelSpriteSheet_8
+  - first:
+      213: 8493193778897943087
+    second: lixoReciclavelSpriteSheet_9
+  - first:
+      213: -5000401167207581207
+    second: lixoReciclavelSpriteSheet_10
+  - first:
+      213: -8170232539180849384
+    second: lixoReciclavelSpriteSheet_11
+  - first:
+      213: 744714670472922968
+    second: lixoReciclavelSpriteSheet_12
+  - first:
+      213: -2236535504703351142
+    second: lixoReciclavelSpriteSheet_13
+  - first:
+      213: 8330075090732242469
+    second: lixoReciclavelSpriteSheet_14
+  - first:
+      213: -2462237848618371951
+    second: lixoReciclavelSpriteSheet_15
+  - first:
+      213: -5047069599794058203
+    second: lixoReciclavelSpriteSheet_16
+  - first:
+      213: 2461846699097290385
+    second: lixoReciclavelSpriteSheet_17
+  - first:
+      213: -7098963685022136727
+    second: lixoReciclavelSpriteSheet_18
+  - first:
+      213: 2000830972938740805
+    second: lixoReciclavelSpriteSheet_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lixoReciclavelSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9948ffda9e0bda0800000000000000
+      internalID: -5930983775721448992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lixoReciclavelSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 70
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55784b09e856f1640800000000000000
+      internalID: 5052868969920497493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lixoReciclavelSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 71
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdec375f36db7f2e0800000000000000
+      internalID: -2091995264872886565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lixoReciclavelSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 70
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8642a557260b92ba0800000000000000
+      internalID: -6113161082256612248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lixoReciclavelSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 69
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe34a199be4ac020800000000000000
+      internalID: 2362787513428623090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lixoReciclavelSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 43
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edbc5d2e49694d870800000000000000
+      internalID: 8706749545818999774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lixoReciclavelSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 44
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30f2076e004f72d0800000000000000
+      internalID: -3278831573100466113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lixoReciclavelSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 45
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642cfe9008f933a40800000000000000
+      internalID: 5346792554890248774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lixoReciclavelSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 43
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e62cb4d8d8a63c0800000000000000
+      internalID: -4365521250781335965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lixoReciclavelSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 42
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2af4c73eb2edd570800000000000000
+      internalID: 8493193778897943087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lixoReciclavelSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9b426b1a10b9ab0800000000000000
+      internalID: -5000401167207581207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lixoReciclavelSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 21
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817a9c91bc08d9e80800000000000000
+      internalID: -8170232539180849384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lixoReciclavelSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 22
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8578f801c02c55a00800000000000000
+      internalID: 744714670472922968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lixoReciclavelSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 20
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a969b92eeca36f0e0800000000000000
+      internalID: -2236535504703351142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lixoReciclavelSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 19
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526dc6f092f5a9370800000000000000
+      internalID: 8330075090732242469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lixoReciclavelSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1947490e8bf54ddd0800000000000000
+      internalID: -2462237848618371951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lixoReciclavelSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c2a9380f435f9b0800000000000000
+      internalID: -5047069599794058203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lixoReciclavelSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1967927878c3a2220800000000000000
+      internalID: 2461846699097290385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lixoReciclavelSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9668bd0f32a6b7d90800000000000000
+      internalID: -7098963685022136727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lixoReciclavelSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544ec954b2164cb10800000000000000
+      internalID: 2000830972938740805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      lixoReciclavelSpriteSheet_0: -5930983775721448992
+      lixoReciclavelSpriteSheet_1: 5052868969920497493
+      lixoReciclavelSpriteSheet_10: -5000401167207581207
+      lixoReciclavelSpriteSheet_11: -8170232539180849384
+      lixoReciclavelSpriteSheet_12: 744714670472922968
+      lixoReciclavelSpriteSheet_13: -2236535504703351142
+      lixoReciclavelSpriteSheet_14: 8330075090732242469
+      lixoReciclavelSpriteSheet_15: -2462237848618371951
+      lixoReciclavelSpriteSheet_16: -5047069599794058203
+      lixoReciclavelSpriteSheet_17: 2461846699097290385
+      lixoReciclavelSpriteSheet_18: -7098963685022136727
+      lixoReciclavelSpriteSheet_19: 2000830972938740805
+      lixoReciclavelSpriteSheet_2: -2091995264872886565
+      lixoReciclavelSpriteSheet_3: -6113161082256612248
+      lixoReciclavelSpriteSheet_4: 2362787513428623090
+      lixoReciclavelSpriteSheet_5: 8706749545818999774
+      lixoReciclavelSpriteSheet_6: -3278831573100466113
+      lixoReciclavelSpriteSheet_7: 5346792554890248774
+      lixoReciclavelSpriteSheet_8: -4365521250781335965
+      lixoReciclavelSpriteSheet_9: 8493193778897943087
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
