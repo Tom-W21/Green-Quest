@@ -20,9 +20,14 @@ public class GameControler : MonoBehaviour
 
     public static GameControler instance;
 
+    public GameObject gameOverPanel;
+
     private void Awake()
     {
         instance = this;
+
+        Time.timeScale = 1;
+        gameOverPanel.SetActive(false);
 
         GetPlastic();
         GetGlass();
@@ -99,5 +104,17 @@ public class GameControler : MonoBehaviour
         {
             NextLvl();
         }
+    }
+
+    public void ShowGameOver()
+    {
+        Time.timeScale = 0;
+        gameOverPanel.SetActive(true);
+    }
+
+    public void RestartGame()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

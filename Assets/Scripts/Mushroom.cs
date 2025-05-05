@@ -8,7 +8,7 @@ public class Mushroom : MonoBehaviour
     private Rigidbody2D rig;
     public Animator anim;
 
-    public int health;
+    private Health healthSystem;
     public float speed;
     
     public Transform point;
@@ -20,6 +20,7 @@ public class Mushroom : MonoBehaviour
     {
         rig = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        healthSystem = GetComponent<Health>();
     }
 
     // Update is called once per frame
@@ -58,8 +59,8 @@ public class Mushroom : MonoBehaviour
     public void OnHit()
     {
         anim.SetTrigger("hit");
-        health--;
-        if(health <= 0)
+        healthSystem.health--;
+        if(healthSystem.health <= 0)
         {
             speed = 0;
             anim.SetTrigger("dead");

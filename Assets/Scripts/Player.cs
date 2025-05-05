@@ -11,7 +11,8 @@ public class Player : MonoBehaviour
 
     public LayerMask enemyLayer;
 
-    public int health;
+    private Health healthSystem;
+
     public float radius;
     public float speed;
     public float jumpForce;
@@ -46,6 +47,7 @@ public class Player : MonoBehaviour
     {
         rig = GetComponent<Rigidbody2D>(); 
         playerAudio = GetComponent<PlayerAudio>();
+        healthSystem = GetComponent<Health>();
     }
 
     // Update is called once per frame
@@ -155,19 +157,19 @@ public class Player : MonoBehaviour
             return;
 
         invunerabilityTime = invunerabilityDuration;
-        health--;
+        healthSystem.health--;
 
 
-        if(health > 0)
+        if(healthSystem.health > 0)
         {
             anim.SetTrigger("hit");
         }
                      
 
-        if (health <= 0)
+        if (healthSystem.health <= 0)
         {
             anim.SetTrigger("dead");
-            //Gamer Over aqui
+            GameControler.instance.ShowGameOver();
         }
         
     }
