@@ -25,6 +25,7 @@ public class Player : MonoBehaviour
     private bool recovery;
 
     private static Player instance;
+    
 
     public float invunerabilityTime = 0;
     public float invunerabilityDuration = 2;
