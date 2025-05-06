@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5632939910742550675}
   - component: {fileID: 5099580386736990851}
   - component: {fileID: 6974429113092481129}
+  - component: {fileID: 6937436786788635091}
   m_Layer: 7
   m_Name: Enemy_Mushroom
   m_TagString: Untagged
@@ -178,7 +179,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 6974429113092481129}
-  health: 3
   speed: 3
   point: {fileID: 1781780519492541159}
   radius: 0.2
@@ -207,6 +207,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6937436786788635091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3669380179988391852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c36b13ee2a668e409efb7b8626f61a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  heartsCount: 0
+  hearts: []
+  fullHeart: {fileID: 0}
 --- !u!1 &7595002459352949794
 GameObject:
   m_ObjectHideFlags: 0

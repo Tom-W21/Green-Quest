@@ -15,8 +15,7 @@ public class Mushroom : MonoBehaviour
     public float radius;
     public LayerMask layer;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void Awake()
     {
         rig = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
