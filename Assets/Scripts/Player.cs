@@ -30,15 +30,16 @@ public class Player : MonoBehaviour
     public float invunerabilityDuration = 2;
     private void Awake()
     {
-        DontDestroyOnLoad(this); //mant�m um objeto entre cenas.
-
-        if (instance == null) //checando se o instace � null.
+        if(instance == null)
         {
             instance = this;
+            DontDestroyOnLoad(gameObject);
         }
-        else 
+        else if(instance != this)
         {
-            Destroy(gameObject);
+            Destroy(instance.gameObject);
+            instance = this;
+            DontDestroyOnLoad(gameObject);
         }
     }
 

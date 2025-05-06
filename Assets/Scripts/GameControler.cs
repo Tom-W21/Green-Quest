@@ -27,7 +27,7 @@ public class GameControler : MonoBehaviour
         instance = this;
 
         Time.timeScale = 1;
-        gameOverPanel.SetActive(false);
+        
 
         GetPlastic();
         GetGlass();
