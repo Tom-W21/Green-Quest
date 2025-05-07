@@ -15,6 +15,8 @@ public class Health : MonoBehaviour
     {
         for (int i = 0; i < hearts.Length; i++)
         {
+            if (hearts[i] == null) continue; // pula se o coração foi destruído
+
             if (i < health)
             {
                 hearts[i].sprite = fullHeart;
@@ -22,11 +24,11 @@ public class Health : MonoBehaviour
             }
             else if (i < heartsCount)
             {
-                hearts[i].enabled = false; // Some com o coração
+                hearts[i].enabled = false;
             }
             else
             {
-                hearts[i].enabled = false; // Fora do limite de corações
+                hearts[i].enabled = false;
             }
         }
     }

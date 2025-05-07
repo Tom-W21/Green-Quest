@@ -25,7 +25,6 @@ public class GameControler : MonoBehaviour
     private void Awake()
     {
         instance = this;
-
         Time.timeScale = 1;
         
 
@@ -116,5 +115,19 @@ public class GameControler : MonoBehaviour
     {
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    // Voltar ao menu principal
+    public void GoToMainMenu()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(0); // Supondo que a cena do menu é a de índice 0
+    }
+
+    // Sair do jogo
+    public void ExitGame()
+    {
+        Debug.Log("Saindo do jogo...");
+        Application.Quit();
     }
 }
