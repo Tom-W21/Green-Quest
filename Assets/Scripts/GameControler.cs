@@ -22,6 +22,8 @@ public class GameControler : MonoBehaviour
 
     public GameObject gameOverPanel;
 
+    public GameObject theEndPanel;
+
     private void Awake()
     {
         instance = this;
@@ -101,8 +103,28 @@ public class GameControler : MonoBehaviour
     {
         if (scorePlastic >= 3 && scoreGlass >= 3 && scorePaper >= 3 && scoreCan >= 3)
         {
-            NextLvl();
+            if (IsLastLevel())
+            {
+                ShowTheEnd(); // Mostra o painel final
+            }
+            else
+            {
+                NextLvl(); // Continua normalmente
+            }
         }
+    }
+
+    // Verifica se está na última cena
+    private bool IsLastLevel()
+    {
+        return SceneManager.GetActiveScene().buildIndex == SceneManager.sceneCountInBuildSettings - 1;
+    }
+
+    // Método que mostra o painel The End
+    public void ShowTheEnd()
+    {
+        Time.timeScale = 0;
+        theEndPanel.SetActive(true);
     }
 
     public void ShowGameOver()
@@ -114,7 +136,7 @@ public class GameControler : MonoBehaviour
     public void RestartGame()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene(0);
     }
 
     // Voltar ao menu principal
