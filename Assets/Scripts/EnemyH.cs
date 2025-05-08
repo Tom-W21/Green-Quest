@@ -13,7 +13,7 @@ public class EnemyH : MonoBehaviour
 
     public int health = 0;
 
-    private bool isFront;
+    public bool isFront;
     private Vector2 direction;
 
     public bool isLefth; // Identifica a direcao do inimigo 
@@ -79,40 +79,45 @@ public class EnemyH : MonoBehaviour
 
     void GetPlayer()
     { 
-        RaycastHit2D hit = Physics2D.Raycast(point.position, direction, maxVision); // logica do inimigo enchergar o player.
+    RaycastHit2D hit = Physics2D.Raycast(point.position, direction, maxVision); // logica do inimigo enchergar o player.
 
-        if (hit.collider != null && !isDead)
+    if (hit.collider != null && !isDead)
+    {
+        if (hit.transform.CompareTag("Player"))
         {
-            if (hit.transform.CompareTag("Player"))
+            isFront = true;
+
+            float distance = Vector2.Distance(transform.position, hit.transform.position);
+            if (distance <= stopDistance)
             {
-                isFront = true;
+                isFront = false;
+                rig.linearVelocity = Vector2.zero;
 
-                float distance = Vector2.Distance(transform.position,hit.transform.position);
-                if(distance <= stopDistance)
-                {
-                    isFront = false;
-                    rig.linearVelocity = Vector2.zero;
+                hit.transform.GetComponent<Player>().OnHit();
 
-                    hit.transform.GetComponent<Player>().OnHit();
-
-                    anim.SetInteger("transition", 2); // precisa fazer a animacao
-                }
+                anim.SetInteger("transition", 2); // precisa fazer a animacao
             }
         }
-
-        RaycastHit2D behindHit = Physics2D.Raycast(behind.position, -direction, maxVision);
-        
-        if(behindHit.collider != null)
+        else
         {
-            if (behindHit.transform.CompareTag("Player"))
-            {
-                //Player esta nas costa do inimigo.
-                isLefth = !isLefth;
-                isFront = true;
-
-            }
+            isFront = false; // outro objeto na frente, não é o player
         }
     }
+    else
+    {
+        isFront = false; // nada foi atingido
+    }
+
+    // Verifica atrás do inimigo
+    RaycastHit2D behindHit = Physics2D.Raycast(behind.position, -direction, maxVision);
+    
+    if (behindHit.collider != null && behindHit.transform.CompareTag("Player"))
+    {
+        // Player está nas costas do inimigo.
+        isLefth = !isLefth;
+        isFront = true;
+    }
+}
 
     public void OnHit()
     {

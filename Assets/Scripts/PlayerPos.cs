@@ -16,7 +16,7 @@ public class PlayerPos : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("Player com tag 'Player' não foi encontrado na cena.");
+            Debug.LogWarning("Player com tag 'Player' nï¿½o foi encontrado na cena.");
         }
     }
 }

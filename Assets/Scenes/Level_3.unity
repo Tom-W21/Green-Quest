@@ -119,6 +119,63 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &170412498
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 64869179613161529, guid: 902111dd42486a94b9522bbdab550085, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 64869179613161529, guid: 902111dd42486a94b9522bbdab550085, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 64869179613161529, guid: 902111dd42486a94b9522bbdab550085, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 64869179613161529, guid: 902111dd42486a94b9522bbdab550085, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 64869179613161529, guid: 902111dd42486a94b9522bbdab550085, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 64869179613161529, guid: 902111dd42486a94b9522bbdab550085, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 64869179613161529, guid: 902111dd42486a94b9522bbdab550085, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 64869179613161529, guid: 902111dd42486a94b9522bbdab550085, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 64869179613161529, guid: 902111dd42486a94b9522bbdab550085, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 64869179613161529, guid: 902111dd42486a94b9522bbdab550085, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544307858577030251, guid: 902111dd42486a94b9522bbdab550085, type: 3}
+      propertyPath: m_Name
+      value: Enemy_Human (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 902111dd42486a94b9522bbdab550085, type: 3}
 --- !u!1001 &211519141
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4016,14 +4073,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scorePlastic: 0
-  scorePText: {fileID: 0}
+  scorePText: {fileID: 796194133}
   scoreGlass: 0
-  scoreGText: {fileID: 0}
+  scoreGText: {fileID: 959970918}
   scorePaper: 0
-  scorePaperText: {fileID: 0}
+  scorePaperText: {fileID: 212691100}
   scoreCan: 0
-  scoreCText: {fileID: 0}
-  gameOverPanel: {fileID: 0}
+  scoreCText: {fileID: 297015635}
+  gameOverPanel: {fileID: 1008901197}
 --- !u!4 &755249897
 Transform:
   m_ObjectHideFlags: 0
@@ -4477,7 +4534,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 755249896}
         m_TargetAssemblyTypeName: GameControler, Assembly-CSharp
         m_MethodName: RestartGame
         m_Mode: 1
@@ -5777,7 +5834,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 755249896}
         m_TargetAssemblyTypeName: GameControler, Assembly-CSharp
         m_MethodName: ExitGame
         m_Mode: 1
@@ -5967,7 +6024,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 755249896}
         m_TargetAssemblyTypeName: GameControler, Assembly-CSharp
         m_MethodName: GoToMainMenu
         m_Mode: 1
@@ -6630,3 +6687,4 @@ SceneRoots:
   - {fileID: 705685122}
   - {fileID: 812996218}
   - {fileID: 603378974}
+  - {fileID: 170412498}
