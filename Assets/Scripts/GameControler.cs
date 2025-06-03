@@ -24,6 +24,8 @@ public class GameControler : MonoBehaviour
 
     public GameObject theEndPanel;
 
+    public GameObject creditosPanel;
+
     private void Awake()
     {
         instance = this;
@@ -144,6 +146,12 @@ public class GameControler : MonoBehaviour
     {
         Time.timeScale = 1;
         SceneManager.LoadScene(0); // Supondo que a cena do menu é a de índice 0
+    }
+
+    // Creditos
+    public void CreditosPanel()
+    {       
+        creditosPanel.SetActive(true);
     }
 
     // Sair do jogo

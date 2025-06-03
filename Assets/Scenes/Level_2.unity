@@ -3433,9 +3433,9 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: dda40ba74e05cb9458563551700a7d7f, type: 3}
   m_Resource: {fileID: 8300000, guid: dda40ba74e05cb9458563551700a7d7f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.7
+  m_Volume: 0.4
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -3832,6 +3832,7 @@ MonoBehaviour:
   scoreCan: 0
   scoreCText: {fileID: 872302032}
   gameOverPanel: {fileID: 1570760274}
+  theEndPanel: {fileID: 0}
 --- !u!4 &755249897
 Transform:
   m_ObjectHideFlags: 0

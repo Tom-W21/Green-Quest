@@ -11,6 +11,9 @@ public class EnemyH : MonoBehaviour
     private Animator anim;
     private bool isDead;
 
+    private float lostPlayerTimer = 0f;
+    public float lostPlayerCooldown = 2f;
+
     public int health = 0;
 
     public bool isFront;
@@ -74,7 +77,22 @@ public class EnemyH : MonoBehaviour
     private void FixedUpdate()
     {
         GetPlayer();
-        OnMove();
+
+        if (isFront && !isDead)
+        {
+            OnMove();
+            lostPlayerTimer = 0f; // resetamos o timer se está vendo o player
+        }
+        else
+        {
+            lostPlayerTimer += Time.fixedDeltaTime;
+
+            if (lostPlayerTimer >= lostPlayerCooldown)
+            {
+                rig.linearVelocity = Vector2.zero;
+                anim.SetInteger("transition", 0); // Idle ou parado
+            }
+        }
     }
 
     void GetPlayer()
