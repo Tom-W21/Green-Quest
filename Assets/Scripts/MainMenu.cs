@@ -18,6 +18,6 @@ public class MainMenu : MonoBehaviour
 
     public void OpenCredits()
     {
-        SceneManager.LoadScene("Credits"); // ou use SceneManager.LoadScene(2); se for pelo índice
+        SceneManager.LoadScene("Credits");
     }
 }

@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -25,6 +27,7 @@ public class Player : MonoBehaviour
     private bool recovery;
 
     private static Player instance;
+    [SerializeField] private GameObject _pauseCanvas;
     
 
     public float invunerabilityTime = 0;
@@ -57,12 +60,41 @@ public class Player : MonoBehaviour
     {
         Jump();
         Attack();
+        PauseGameHandler();
     }
 
     private void FixedUpdate()
     {
         Move();     
         if(invunerabilityTime > 0) invunerabilityTime -= Time.deltaTime;
+    }
+
+    public void UnpaseGame()
+    {
+        _pauseCanvas.SetActive(false);
+        Time.timeScale = 0;
+    }
+
+    public void CloseGame()
+    {
+        Application.Quit(0);
+    }
+
+    public void ReturnMainMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+
+    public void PauseGameHandler()
+    {
+        if (Input.GetKeyDown("escape"))
+        {
+            bool state = !_pauseCanvas.activeSelf;
+
+            Time.timeScale = state ? 0 : 1;
+            _pauseCanvas.SetActive(state);
+
+        }
     }
 
     void Move()
